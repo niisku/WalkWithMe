@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bdbdbd"
+    tools:context="com.example.niina.walkwithme.MainActivity">
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/login_button"
+            style="@style/button_style"
+            android:layout_alignParentRight="true"
+            android:text="Log In" />
+
+        <Button
+            android:id="@+id/signin_button"
+            style="@style/button_style"
+            android:layout_toLeftOf="@id/login_button"
+            android:text="Sign In" />
+
+
+        <ImageView
+            android:id="@+id/walk_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/login_button"
+            android:scaleType="centerCrop"
+            android:src="@drawable/walk" />
+
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/text_title_style"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/text_subtitle"
+            style="@style/text_subtitle_style"
+            android:layout_below="@id/text_title"
+            android:text="@string/string_subtitle" />
+
+        <TextView
+
+            android:id="@+id/text_sentences"
+            style="@style/text_basic_info_style"
+            android:layout_below="@id/walk_image"
+            android:text="@string/string_sentences" />
+
+        <LinearLayout
+            android:id="@+id/linear_ones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_sentences"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_possibilities"
+                style="@style/text_basic_info_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/string_possibilities" />
+
+
+            <TextView
+                android:id="@+id/text_userstory"
+                style="@style/text_basic_info_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#cfd8dc"
+                android:text="@string/string_userstory"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_contact"
+            style="@style/text_basic_info_style"
+            android:layout_below="@id/linear_ones"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/string_contactinfo" />
+
+    </RelativeLayout>
+
+</ScrollView>

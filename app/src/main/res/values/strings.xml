@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Walk With Me</string>
+    <string name="string_subtitle">Find Company For Outdoor Strolling</string>
+    <string name="string_sentences">Feel like having a stroll?
+        \n Want to try hiking in the morning?
+        \n Want to see your strengths after a non-active period?
+        \n But have no one in the same situation.</string>
+    <string name="string_possibilities">Tailor age preferences, fitness level, approximate pace, length and duration, time and space, type (stroll, hike, jogging...)</string>
+    <string name="string_userstory">&quot;After an early retirement I all the sudden found that none of my friends got time for walks in the park in the middle of weekdays. With this service I found a person in similar situation, and now we're training for a marathon! &quot; \n - Margo, 56 years</string>
+    <string name="string_contactinfo">Email: walkwithme@andoidapp.com
+        \n Phone: +35850 1234 567
+        \n Address: Sunset road 12,
+        \n 123 45 Stockholm</string>
+</resources>
